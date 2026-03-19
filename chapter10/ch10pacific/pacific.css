@@ -63,6 +63,7 @@ nav li {
 }
 nav a {
   text-decoration: none; /* txd */
+  transition: color 3s ease-out;
 }
 nav a:link {
 color: #5C7FA3; /* c#5c7fa3 */
