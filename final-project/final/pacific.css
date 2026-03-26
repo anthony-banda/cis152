@@ -98,9 +98,10 @@ h2 {
 }
 h3 {
   color: rgba(0, 0, 0, 0.8); /* c#003 */
+  text-shadow: 1px 1px 1px #ccc;
 }
 h4{
-  color: #000;
+  color: #039c;
   text-shadow: 1px 1px 1px #ccc;
 }
 address {
@@ -504,6 +505,6 @@ main-content-column, .sidebar-column {
         flex: 1 100%; 
     }
 }
-h3{
+h4{
   text-align: right;
 }
