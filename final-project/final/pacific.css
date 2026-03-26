@@ -492,7 +492,7 @@ main-content-column, .sidebar-column {
     background-color: #ddd;
 }
 @media screen and (max-width: 600px) {
-    .about-us-wrapper {
+    .our-values-wrapper {
         flex-direction: column; 
     }
     .main-content-column, .sidebar-column {
