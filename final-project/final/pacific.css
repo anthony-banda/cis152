@@ -82,6 +82,7 @@ main {
 h1,
 h2,
 h3,
+h4,
 footer {
 font-family: Georgia, "Times New Roman", Times, serif; /* fft */
 }
@@ -97,6 +98,10 @@ h2 {
 }
 h3 {
   color: rgba(0, 0, 0, 0.8); /* c#003 */
+}
+h4{
+  color: #000;
+  text-shadow: 1px 1px 1px #ccc;
 }
 address {
   font-style: normal; /* fsn */
@@ -491,11 +496,14 @@ main-content-column, .sidebar-column {
 .sidebar-column {
     background-color: #ddd;
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .our-values-wrapper {
         flex-direction: column; 
     }
     .main-content-column, .sidebar-column {
         flex: 1 100%; 
     }
+}
+h3{
+  text-align: right;
 }
