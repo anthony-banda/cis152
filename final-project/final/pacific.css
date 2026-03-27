@@ -485,18 +485,7 @@ max-width: 100%;
 .center{
   text-align: left;
 }
-main-content-column, .sidebar-column {
-    padding: 1em;
-    flex: 1; 
-}
 
-.main-content-column {
-    background-color: #f4f4f4;
-}
-
-.sidebar-column {
-    background-color: #ddd;
-}
 @media (max-width: 600px) {
     .our-values-wrapper {
         flex-direction: column; 
